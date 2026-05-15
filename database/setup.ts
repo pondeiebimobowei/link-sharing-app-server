@@ -21,7 +21,7 @@ if (process.env.NODE_ENV === 'production') {
   sequelizeConfig.dialectOptions = {
     ssl: {
       require: true, // Enforce SSL connection
-      rejectUnauthorized: true, 
+      rejectUnauthorized: false, 
     }
   };
 }
